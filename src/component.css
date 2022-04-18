@@ -1,6 +1,5 @@
-html {
-  min-height: 100%;
-  position: relative;
+body {
+  margin: 0;
 }
 
 footer {
@@ -20,14 +19,6 @@ header {
     font-size: calc(10px + 2vmin);
     color: white;
   }
-
-  /* footer {
-    position: absolute;
-    text-align: center;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
-  } */
 
   form{
     position: relative;
