@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './component.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -14,7 +13,7 @@ function App() {
   }
 
   function deleteNote(key){
-    let listNotes = notes.filter((data,i)=> i!=key)
+    let listNotes = notes.filter((data,i)=> i!==key)
     setNote(listNotes)
   }
 
